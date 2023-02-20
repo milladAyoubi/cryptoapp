@@ -1,10 +1,10 @@
 import React from 'react'
-import { Switch, Route, Link } from 'react-router-dom'
+import { Routes ,Route } from 'react-router-dom';
 import {Layout, Typography, Space } from 'antd';
 
 
-import { Navbar } from './components';
-
+import { Navbar, Homepage, Exchanges, Cryptocurrencies, Information, CryptoDetails } from './components';
+import './App.css'
 const App = () => {
   return (
     <div className="app">
@@ -12,7 +12,13 @@ const App = () => {
             <Navbar/>
         </div>
 
-        <div className="main"></div>
+        <div className="main">
+    
+          <div className="routes">
+            
+          </div>
+
+        </div>
         <div className="footer"></div>
         
     </div>
