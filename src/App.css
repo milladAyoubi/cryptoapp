@@ -217,6 +217,17 @@ a:hover {
     font-weight: 800;
 }
 
+.stats-p p {
+    margin: 6px 0;
+    font-size: 12px;
+}
+
+.bold-stats {
+    margin-left: 2px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
 .coin-value-statistics-heading p {
     font-size: 1rem;
     opacity: 0.9;
