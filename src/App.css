@@ -38,6 +38,30 @@ a:hover {
     width: 100%;
 }
 
+.global-stats-total {
+    display: flex;
+    margin: 1rem 0;
+    font-size: 22px;
+}
+
+.global-stats-container {
+    margin: 2rem 0;
+}
+
+.ant-statistic-content-value {
+    color: white;
+    background-color: #001529;
+    border-radius: 50px;
+    color: white;
+    font-size: 22px !important;
+    position: relative;
+    bottom: 8px;
+    text-align: center;
+    padding: 0.3rem 2rem;
+    margin-right: 1rem;
+    width: 10rem;
+}
+
 .show-more {
     font-size: 0.6rem;
     position: relative;
