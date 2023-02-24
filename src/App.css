@@ -23,9 +23,20 @@ a:hover {
     color: var(--pink) !important;
 }
 
+.ant-typography a {
+    position: relative;
+    top: 5px;
+}
+
 .app {
     display: flex;
     overflow: hidden;
+}
+
+.ant-avatar img {
+    width: 70px;
+    position: relative;
+    right: 15px;
 }
 
 .navbar {
@@ -45,7 +56,7 @@ a:hover {
 }
 
 .global-stats-container {
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .ant-statistic-content-value {
@@ -59,7 +70,7 @@ a:hover {
     text-align: center;
     padding: 0.3rem 2rem;
     margin-right: 1rem;
-    width: 10rem;
+    width: 8rem;
 }
 
 .show-more {

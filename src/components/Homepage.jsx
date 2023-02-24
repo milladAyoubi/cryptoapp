@@ -23,11 +23,11 @@ const Homepage = () => {
     <>
     <Title level={2} className="heading">Global Crypto Stats</Title>
     <Row className="global-stats-container">
-      <Col className="global-stats-total" span={12}><Statistic  className="stats-value" value={millify(globalStats.total)}/>Total Cryptocurrencies</Col>
-      <Col className="global-stats-total" span={12}><Statistic  className="stats-value" value={millify(globalStats.totalExchanges)}/>Total Exchanges</Col>
-      <Col className="global-stats-total" span={12}><Statistic className="stats-value"  value={millify(globalStats.totalMarketCap)}/>Total Marketcap</Col>
-      <Col className="global-stats-total" span={12}><Statistic className="stats-value"  value={millify(globalStats.total24hVolume)}/>24 Hour Volume</Col>
-      <Col className="global-stats-total" span={12}><Statistic className="stats-value"  value={millify(globalStats.totalMarkets)}/>Total Avalible Markets</Col>
+      <Col className="global-stats-total" span={9}><Statistic  className="stats-value" value={millify(globalStats.total)}/>Total Cryptocurrencies</Col>
+      <Col className="global-stats-total" span={9}><Statistic  className="stats-value" value={millify(globalStats.totalExchanges)}/>Total Exchanges</Col>
+      <Col className="global-stats-total" span={9}><Statistic className="stats-value"  value={millify(globalStats.totalMarketCap)}/>Total Marketcap</Col>
+      <Col className="global-stats-total" span={9}><Statistic className="stats-value"  value={millify(globalStats.total24hVolume)}/>24 Hour Volume</Col>
+      <Col className="global-stats-total" span={9}><Statistic className="stats-value"  value={millify(globalStats.totalMarkets)}/>Total Avalible Markets</Col>
     </Row>
     <div className="home-heading-container">
         <Title level={2} className="home-title heading">Most Popular Cryptocurrencies in the world</Title>

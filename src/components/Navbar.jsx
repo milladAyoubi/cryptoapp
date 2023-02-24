@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="logo-container">
                 <Avatar src={image} size="large"/>
                 <Typography.Title  level={2} className="logo">
-                <Link to="/">CryptoAPI</Link>
+                <Link to="/">MetaCoin</Link>
                 </Typography.Title>
                 <Button className="menu-control-container">
 
