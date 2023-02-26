@@ -132,11 +132,7 @@ a:hover {
     align-items: center;
 }
 
-@media screen and (max-width:1300px) {
-    .main {
-        margin-left: 50px;
-    }
-}
+@media screen and (max-width:1300px) {}
 
 @media screen and (max-width:1170px) {
     .main {
@@ -336,6 +332,31 @@ a:hover {
     .stats-container h2 {
         margin-top: 0px;
     }
+    .global-stats-container {
+        display: block;
+    }
+    .heading {
+        text-align: left;
+    }
+    .global-stats-total {
+        width: 900px;
+        font-size: 15px;
+    }
+    .stats-value {
+        font-size: 14px;
+    }
+    .crypto-card-container {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .routes {
+        position: relative;
+        left: 50px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -438,11 +459,13 @@ a:hover {
 
 .crypto-card-container {
     min-height: 165vh !important;
+    width: 100%;
 }
 
 .crypto-card {
-    margin: 20px;
+    margin: 20px 0;
     min-width: 250px;
+    margin-right: 20px;
 }
 
 .crypto-card .crypto-image {
